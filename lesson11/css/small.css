@@ -98,7 +98,7 @@ form label{
 }
   
 form label.top {
-    color: red;
+    color: #767522;
     display: block;
     font-size: .8rem;
     padding-top: 1rem;
@@ -106,7 +106,7 @@ form label.top {
 }
   
 form label.test{
-    color: red;
+    color: #767522;
     display: block;
     font-size: .8rem;
     padding-top: 1rem;
