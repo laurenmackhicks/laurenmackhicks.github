@@ -8,7 +8,8 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;}
 p{
-    font-family: 'Newsreader', serif;}
+    font-family: 'Newsreader', serif;
+}
 li{
     font-family: 'Montserrat', sans-serif;}
 
@@ -44,6 +45,18 @@ main{
     max-width:960px;
     background-color:#FFF8F0;
     margin:0 auto;
+}
+.content p{
+    padding:1.5em;
+}
+.map-and-contact p{
+    padding:1.5em;
+}
+.townimg{
+
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-items:center;
 }
 .map-and-contact{
     background-color:#767522;
