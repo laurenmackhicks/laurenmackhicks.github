@@ -7,6 +7,7 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 468) mainnav.classList.remove('responsive')};
 
+//date
 const thedate = new Date();
 let year = thedate.getFullYear();
 document.getElementById("currentYear").textContent = year;
