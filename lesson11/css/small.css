@@ -69,17 +69,18 @@ main{
     justify-items:center;
 }
 .article{
-    display: grid;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
-    grid-column: 1/6;
 }
 .story{
     padding: 1em;
     line-height: 1.5;
     float: left;
+    grid-column: 1;
 }
 .article-img{
-    float: right;
+    grid-column: 2;
 }
 .map-and-contact{
     background-color:#767522;
@@ -94,7 +95,7 @@ main{
 }
 .contact{
     grid-column: 2/4;
-    grid-row: 2/4;
+    grid-row: 1/4;
     text-align: center;
     padding: 4em;
     line-height: 2;
