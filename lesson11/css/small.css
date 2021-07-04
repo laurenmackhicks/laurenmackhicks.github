@@ -82,12 +82,18 @@ main{
 .article-img{
     grid-column: 2;
 }
-.map-and-contact{
-    background-color:#767522;
-    max-width:960px;
+.map-and-contact {
+    background-color: #767522;
+    max-width: 960px;
     margin: 0 auto;
-    display: grid;
+    display: flex;
+    flex-direction: row;
 }
+.socials {
+    flex-direction: column;
+    display: flex;
+}
+
 .map{
     grid-column: 1/2;
     grid-row: 1/4;
@@ -99,11 +105,6 @@ main{
     text-align: center;
     padding: 4em;
     line-height: 2;
-}
-.socials{
-    justify-content: center;
-    grid-column:2/6;
-    grid-row: 6/6;
 }
 footer{
     max-width:100%;
@@ -149,13 +150,16 @@ footer{
     
 
     .forecast {
-        display: block;
+        display: inline-block;
+        max-width: 960px;
         justify-content: center;
         align-items: center;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         color:#767522;
         margin: 0 auto;
+        padding-left: 3em;
+        padding-right: 3em;
     }
 
     .forecast img{
