@@ -1,0 +1,39 @@
+@media only screen and (min-width: 969px) {
+    .current_weather {
+      position: absolute;
+      top: 15rem;
+      left: 20rem;
+      background: radial-gradient(#eee, #f4d06f);
+      width: 15em;
+      height: 20em;
+      border-radius: 0 50% 50% 50%;
+      border: 2px solid black;
+      transform: rotate(45deg);
+      margin-top: 20px;
+      opacity: 0.8;
+      line-height: 1em;
+    }
+    .weather_content {
+      transform: rotate(-45deg);
+      position: absolute;
+      left: 2em;
+      top: 0.85em;
+      font-weight: bold;
+    }
+    .weather_content h2 {
+      font-size: 1.3em;
+      width: 7.5em;
+      margin-left: 15px;
+    }
+  }
+  @media only screen and (min-width: 860px) {
+.grid {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+    .banner img {
+    max-width: 100%;
+}      
+  }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston | ForcastSquare</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <div class="title-bar">
+            <img class="logo" src="images/Weather-logo.png" alt="ForcastSquare Logo" height="65px">
+            <img class="web-title-motto" src="images/logo_transparent.PNG" height="60px" alt="ForcastSquare title and motto">
+            </div>
+            <div class="navbar">
+                <nav>
+                    <ul class="navi">
+                        <li><a class="ham" href="#">☰ Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="active" href="preston.html">Preston</a></li>
+                        <li><a href="sodasprings.html">Soda Springs</a></li>
+                        <li><a href="fishhaven.html">Fish Haven</a></li>
+                        <li><a href="stormcenter.html">Storm Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h1>Preston Idaho</h1>
+            <div class="banner-box">
+            <img class="banner" src="images/hero img.jpg" width="100%" height="300px" alt="Hero Image">
+            <div class="current_weather">
+                <div class="weather_content">
+                <h2><span>Current Weather</span></h2>
+                <p>Currently: <span id="current"></span><span></span></p>
+                <p>High: <span id="high"></span><span>&deg; F</span></p>
+                <p>Wind Chill: <span id="wind"></span><span>&deg; F</span></p>
+                <p>Humidity: <span id="humidity"></span><span>&deg; F</span></p>
+                <p>Condition: <span id="condition"></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+                <h3 class="fivetitle">Five Day Forecast</h3>
+                <div class="fivedays">
+                    <div class="forecast">
+                       <div class="dailyweather"></div>
+                </div> 
+                </div>
+            <div class="article">
+                <h2>3 Fun Things To Do With Your Family This Summer!</h2>
+                <div class="story">
+                    <p>
+                        It's Summer time and family is home! Having all this extra free time can be a total blast, the days are longer and definitely hotter! After a few weeks though, the novelty of freedom might start to wear on you when you start to worry about how to keep everyone entertained. Well, fret no more! 
+                        We went ahead and compiled a list of 3 really fun things to do with the whole family this Summer! <br>
+                        <ol>
+                        <li> Make a Playlist and Drive the Pioneer Historic Byway <br></li>
+                        <li> Pack a picnic and your swimsuit and go enjoy Preston Park <br></li>
+                        <li> Pull on your boots and go join the fun at That Famous Night in Preston Rodeo and all the festivities to be found there.<br></li>
+                        </ol>
+                        At the end of the day, there actually is a lot of fun to be had over the summer in Preston, get out there and enjoy all of it! 
+
+
+                    </p>
+                </div>
+                <div class="article-img">
+                    <img src="images/storyimg.jpg" width="450px" alt="Article Image">
+                </div>
+            </div>
+        </main>
+            <div class="map-and-contact">
+                <img class="map" src="images/Prestonmap.png" width="300px" alt="Preston Map">
+                <div class="contact">
+                    <h3>Contact Information</h3>
+                    <p>Address:456 Sesame Street Preston ID 36789<br>
+                    Phone Number:(123)456-7890<br>
+                    Email:prestontownweather@email.mail</p>
+                </div>
+                <div class="socials">
+                    <a target="_blank" href="https://facebook.com"><img src="images/fb.png" height="50px" width="50px"></a>
+                    <a target="_blank" href="https://youtube.com"><img src="images/yt.png" height="50px" width="50px"></a>
+                    <a target="_blank" href="https://instagram.com"><img src="images/insta.png" height="50px" width="50px"></a>
+                </div>
+            </div>
+            <footer>
+                &copy;
+                <span id="year"></span>
+               | Lauren Hicks | Japan |
+               <a class="link" href="https://www.byui.edu/online"> BYU Idaho Online </a>
+                   <p>Last updated:<span id="lastUpdate"></span></p><br>
+                   <a href="../index.html">Portal Home Page</a>
+                   <script src="script.js"></script>
+            </footer>
+            <script src="js/weather.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({
+                google:{
+                    families:[
+                        "Montserrat", "Newsreader"]}});</script>
+    </body>
+    </html>
