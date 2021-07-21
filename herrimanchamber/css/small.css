@@ -92,8 +92,8 @@ main{
     margin: 0 auto;
     padding: -1em;
 }
-/* Home Page layout */
 
+/* Home Page layout */
 .welcome-head{
     text-align: center;
     padding: 1em;
@@ -189,3 +189,5 @@ button:hover{
     color:#69140E;
     cursor:pointer;
 }
+
+/* Herriman City CSS */
