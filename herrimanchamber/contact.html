@@ -30,6 +30,44 @@
         </div>
     </header>
 <main>
+    <h1>Contact Us</h1>
+    <div class="map-contact">
+        <div class="contactform">
+          <p>We would love to here from you! Your voice matters, YOU make a difference.</p>
+            <form action="/my-handeling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="firstname">Name:</label>
+                <input type="text" id="name" name="user_name" required>
+              </li>
+              <li>
+              <label for="lastname">Last Name:</label>
+              <input type="text" id="name" name="user_name">
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email">
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message" required>Your questions, comments, and/or concerns go here.</textarea>
+              </li>
+              <li class="button">
+                <button type="submit">
+                  Send Your Message
+                </button>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.1357431190977!2d-112.01916148482505!3d40.51649065749038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752851db71b4b3f%3A0x2509e78cacf2dbd6!2sHerriman%20City%20Hall!5e0!3m2!1sen!2sjp!4v1626906196870!5m2!1sen!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <section class="board">
+        <h3>Herriman City Board of Directors</h3>
+        
+    </section>
 
 </main>
 <footer>
@@ -42,6 +80,7 @@
         <img src="images/insta.png" width="35px" height="35px" href="https://www.instagram.com/herrimancity/">
         <img src="images/yt.png" width="35px" height="35px" href="https://www.youtube.com/channel/UCBFfCj0QT3f_2UfBE45al1w">
     </div>
+    <script src="js/directors.js"></script>
     <script src="js/script.js"></script>
     <script src="js/weather.js"></script>
 </footer>
