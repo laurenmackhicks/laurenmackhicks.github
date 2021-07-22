@@ -5,7 +5,7 @@
         "lastName": "Watts",
         "title": "Mayor",
         "office": "2018-2022",
-        "emailAddress": "mayorwatts@herriman.org",
+        "email": "mayorwatts@herriman.org",
         "imageurl": "https://www.herriman.org/uploads/files/705/xlarge/Mayor-Watts-240x300.jpg"
         },
         {
@@ -13,7 +13,7 @@
             "lastName": "Henderson",
             "title": "District 1",
             "office": "2020-2024",
-            "emailAddress": "jhenderson@herriman.org",
+            "email": "jhenderson@herriman.org",
             "imageurl": "https://www.herriman.org/uploads/files/710/med/Jared-Henderson-240x300.jpg"
         },
         {
@@ -21,7 +21,7 @@
             "lastName": "Smith",
             "title": "District 2",
             "office": "2018-2022",
-            "emailAddress": "csmith@herriman.org",
+            "email": "csmith@herriman.org",
             "imageurl": "https://www.herriman.org/uploads/files/700/med/Clint-Smith-240x300.jpg"
         },
         {
@@ -29,15 +29,15 @@
             "lastName": "Ohrn",
             "title": "District 3",
             "office": "2018-2022",
-            "emailAddress": "sohrn@herriman.org",
+            "email": "sohrn@herriman.org",
             "imageurl" : "https://www.herriman.org/uploads/files/706/med/Sherrie-Ohrn-240x300.jpg"
         },
         {
-            "name": "Steven Shields",
+            "name": "Steven Shields ",
             "lastName": "Shields",
             "title": "District 4",
             "office": "2020-2024",
-            "emailAddress": "sshields@herriman.org",
+            "email": "sshields@herriman.org",
             "imageurl" : "https://www.herriman.org/uploads/files/725/med/Steven-Shields-cropped-240x300.jpg"
         }
     ]

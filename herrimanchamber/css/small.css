@@ -256,7 +256,22 @@ label{
 .directors{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 5px;
+    gap: 1em;
+    padding: 2em;
+}
+.directors h2{
+    font-family: 'Encode Sans SC', sans-serif;
+    text-align: center;
+}
+.directors p{
+    font-family: 'Uchen', serif;
+    text-align: center;
+}
+.directors img{
+    height:300px;
+    padding: 2em;
+
+
 }
 /* Directory CSS */
 .direct{
