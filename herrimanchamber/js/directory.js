@@ -13,11 +13,13 @@ fetch(requestURL)
         let h2 = document.createElement('h2');
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
+        let p3 = document.createElement('p');
         let image = document.createElement('img');
 
         h2.textContent = `${direct[i].name}`;
         p1.textContent = direct[i].location; 
-        p2.innerHTML = `${direct[i].phone} ${direct[i].link}`; 
+        p2.innerHTML = `${direct[i].phone} ${direct[i].hours}`;
+        p3.innerHTML = `${direct[i].link}`; 
         image.setAttribute('src', direct[i].imageurl);
         image.setAttribute('alt', `${direct[i].name} ${direct[i].hours}!`)
         image.style.boxShadow = '0 0 30px #999'
@@ -25,6 +27,7 @@ fetch(requestURL)
         card.appendChild(h2);
         card.appendChild(p1);
         card.appendChild(p2);
+        card.appendChild(p3);
         card.appendChild(image);
 
         document.querySelector('div.direct').appendChild(card);

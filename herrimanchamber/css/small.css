@@ -253,4 +253,25 @@ label{
     padding-top: 3em;
     padding-right: 2em;
 }
+.directors{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 5px;
+}
 /* Directory CSS */
+.direct{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+}
+.direct h2{
+    font-family: 'Encode Sans SC', sans-serif;
+}
+.direct p{
+    font-family: 'Uchen', serif;
+}
+.direct img{
+    width:300px;
+    height:100px;
+    background-color: #EEEBD3;
+}
