@@ -1,0 +1,14 @@
+@media only screen and (min-width: 969px) {
+    
+  }
+  @media only screen and (min-width: 860px) {
+.grid {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+    .banner img {
+    max-width: 100%;
+}      
+  }

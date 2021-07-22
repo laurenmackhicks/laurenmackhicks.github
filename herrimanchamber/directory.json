@@ -1,0 +1,60 @@
+{
+    "direct":[
+        {
+            "name": "Arctic Circle Restaurant",
+            "location": "13162 South 5600 West",
+            "hours": "10am-11pm",
+            "link": "https://acburger.com/ ",
+            "phone": "801-302-8652",
+            "imageurl": "https://acburger.com/coupons/images/logo.png"
+        },
+        {
+            "name": "Copper Mountain Dental",
+            "location": "6351 W. 13400 S. #100",
+            "hours": "Business hours vary",
+            "link": "https://www.coppermountaindental.com/",
+            "phone": "385-237-5252",
+            "imageurl": ""
+        },
+        {
+            "name": "Doodle Bugs Daycare",
+            "location": "5724 W. 13400 S.",
+            "hours": "6:30am-6pm",
+            "link": "https://childcarecenter.us/provider_detail/doodle_bugs_daycare_herriman_ut",
+            "phone": "801-446-8400",
+            "imageurl": "https://cdn-0.childcarecenter.us/static/images/logo.png?ezimgfmt=rs:380x63/rscb15/ng:webp/ngcb15"
+        },
+        {
+            "name": "Herriman Counseling Services",
+            "location": "5627 W. 13100 S. Ste B",
+            "hours": "9am-5pm",
+            "link": "https://herrimancounseling.com/",
+            "phone": "801-949-8836",
+            "imageurl": "https://herrimancounseling.com/wp-content/uploads/2020/03/hcs-logo-white.svg"
+        },
+        {
+            "name": "Jordan Credit Union",
+            "location": "6375 W 13400 S",
+            "hours": "9am-6pm",
+            "link": "https://jordan-cu.org/",
+            "phone": "801-446-7337",
+            "imageurl": "https://jordan-cu.org/wp-content/uploads/JCU-Logo-Color-1-e1476812807918.png"
+        },
+        {
+            "name": "La Garnacha",
+            "location": "5417 W. Herriman Main Street",
+            "hours": "11am-9pm",
+            "link": "https://www.lagarnachautah.com/",
+            "phone": "801-529-8611",
+            "imageurl": "https://static.wixstatic.com/media/9a0684_e87e59829ae34c50ba1a7c73b75bc0c7~mv2.png/v1/fill/w_148,h_148,al_c,q_85,usm_0.66_1.00_0.01/MasterLogo-(WHT).webp"
+        },
+        {
+            "name": "Sodalicious",
+            "location": "5136 W. 13400 S.",
+            "hours": "8am-9pm",
+            "link": "https://www.mysodalicious.com/",
+            "phone": "801-243-3456",
+            "imageurl": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/e90c7889-e01d-4ec1-af12-abdaa0b76f75-retina-large-png"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "directors":[
         {
-        "firstName": "David",
+        "name": "David Watts",
         "lastName": "Watts",
         "title": "Mayor",
         "office": "2018-2022",
@@ -9,7 +9,7 @@
         "imageurl": "https://www.herriman.org/uploads/files/705/xlarge/Mayor-Watts-240x300.jpg"
         },
         {
-            "firstName": "Jared",
+            "name": "Jared Henderson",
             "lastName": "Henderson",
             "title": "District 1",
             "office": "2020-2024",
@@ -17,7 +17,7 @@
             "imageurl": "https://www.herriman.org/uploads/files/710/med/Jared-Henderson-240x300.jpg"
         },
         {
-            "firstName": "Clint",
+            "name": "Clint Smith",
             "lastName": "Smith",
             "title": "District 2",
             "office": "2018-2022",
@@ -25,7 +25,7 @@
             "imageurl": "https://www.herriman.org/uploads/files/700/med/Clint-Smith-240x300.jpg"
         },
         {
-            "firstName": "Sherrie",
+            "name": "Sherrie Ohrn",
             "lastName": "Ohrn",
             "title": "District 3",
             "office": "2018-2022",
@@ -33,7 +33,7 @@
             "imageurl" : "https://www.herriman.org/uploads/files/706/med/Sherrie-Ohrn-240x300.jpg"
         },
         {
-            "firstName": "Steven",
+            "name": "Steven Shields",
             "lastName": "Shields",
             "title": "District 4",
             "office": "2020-2024",
