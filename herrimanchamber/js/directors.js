@@ -1,16 +1,5 @@
-const fs = require('fs');
-const json_data = require('../directors.json');
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
-fs.readFile(json_data, 'utf8', function (err, data) {
-  try {
-    data = JSON.parse(data)
-    for (let i in data){
-    console.log('Name:',data[i].name)
-    }
-  } catch (e) {
-    // Catch error in case file doesn't exist or isn't valid JSON
-  }
-});
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -38,6 +27,6 @@ fetch(requestURL)
         card.appendChild(p2);
         card.appendChild(image);
 
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div.directors').appendChild(card);
     }
   });
